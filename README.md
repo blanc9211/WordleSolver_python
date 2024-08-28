@@ -22,10 +22,17 @@ Here are a few examples of Tests :
 1. Larger list of **12792** words has mostly less than 90% accuracy
 - ![](result_images/file_1_3x100.png)
 
-1. Smaller list of **2315** words
+2. Smaller list of **2315** words
 - ![](result_images/file_2_3x100.png)
 
+# To Run the project 
 
+```
+python -m venv .venv                #virtual env
+pip install -r requirements.txt
+python wordle_tester.py
+
+```
 #
 ## Project Structure :
 ```
